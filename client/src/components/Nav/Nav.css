@@ -1,0 +1,20 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.nav {
+    width: 100%;
+    height: 80Px;
+    background-color: orchid;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    padding-left: 5em;
+    padding-right: 5em;
+    position: relative;
+}
+
+.links {
+    text-align: right;
+}
+.logo {
+    float: left;
+
+}
