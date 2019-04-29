@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Nav from "./components/Nav/Nav"
+import Search from "./components/Search/Search"
+import Saved from "./components/Saved/Saved"
+
 
 class App extends Component {
 
@@ -10,7 +12,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav />
+        <Search />
+        <Saved />
       </div>
     );
   }

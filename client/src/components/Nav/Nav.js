@@ -4,14 +4,19 @@ import "./Nav.css"
 
 const Nav = (props) => {
     return (
-        <div className="nav">
-            
-                <h1 className="logo">Google Books</h1>
-                <div className="links">
-                <a href="#">Search |</a>
-                <a href="#">Saved</a>
-            </div>
-        </div>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <a className="navbar-brand" href="#">Google-Books-Search</a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div className="navbar-nav">
+      <a className="nav-item nav-link active" href="#">Saved</a>
+      {/* <a className="nav-item nav-link" href="#">Features</a> */}
+      
+    </div>
+  </div>
+</nav>
     );
 };
 
