@@ -1,17 +1,18 @@
-import React, { Component } from "react";
-import Books from "../Books/Books"
+import React from "react";
+import Book from "../Book/Book"
 
-class Results extends Component {
-    render() {
+const Results = (props) =>  {
+
         return (
             <div>
                 <h3>
                     Results
                 </h3>
-                <Books />
+
+                {props.books.map(book =><Book book={book} />)}
             </div>
         );
     }
-}
+
 
 export default Results;
